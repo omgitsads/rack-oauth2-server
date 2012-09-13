@@ -5,8 +5,8 @@ gem "rails", "~>2.3"
 
 group :development do
   gem "rake"
-  gem "thin"
   gem "yard"
+  gem "jruby-openssl"
 end
 
 group :test do
